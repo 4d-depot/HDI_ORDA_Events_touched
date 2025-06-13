@@ -46,7 +46,7 @@
 			"objects": {
 				"information": {
 					"type": "input",
-					"top": 80,
+					"top": 130,
 					"left": 50,
 					"width": 1000,
 					"height": 550,
@@ -65,6 +65,19 @@
 						"onDataChange"
 					],
 					"class": "description"
+				},
+				"Check Box3": {
+					"type": "checkbox",
+					"text": "Trace",
+					"top": 750,
+					"left": 1000,
+					"width": 70,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "btnTrace",
+					"fontSize": 14
 				}
 			}
 		},
@@ -100,7 +113,7 @@
 					"height": 20,
 					"dataSource": "Form:C1466.people.firstname",
 					"visibility": "visible",
-					"dataSourceTypeHint": "number",
+					"dataSourceTypeHint": "text",
 					"events": []
 				},
 				"PersonValue1": {
@@ -141,7 +154,7 @@
 					"height": 20,
 					"dataSource": "Form:C1466.people.lastname",
 					"visibility": "visible",
-					"dataSourceTypeHint": "number",
+					"dataSourceTypeHint": "text",
 					"events": []
 				},
 				"PersonLabel3": {
@@ -162,7 +175,7 @@
 					"height": 20,
 					"dataSource": "Form:C1466.people.street",
 					"visibility": "visible",
-					"dataSourceTypeHint": "number",
+					"dataSourceTypeHint": "text",
 					"events": []
 				},
 				"PersonLabel5": {
@@ -183,7 +196,7 @@
 					"height": 20,
 					"dataSource": "Form:C1466.people.city",
 					"visibility": "visible",
-					"dataSourceTypeHint": "number",
+					"dataSourceTypeHint": "text",
 					"events": []
 				},
 				"PersonLabel7": {
@@ -303,6 +316,19 @@
 					"height": 20,
 					"fontWeight": "bold",
 					"fontStyle": "italic"
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"text": "Trace",
+					"top": 750,
+					"left": 1000,
+					"width": 70,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "btnTrace",
+					"fontSize": 14
 				}
 			},
 			"entryOrder": [
@@ -312,7 +338,257 @@
 				"PersonValue3",
 				"PersonValue5",
 				"PersonValue7",
-				"Input1"
+				"Input1",
+				"Check Box1"
+			]
+		},
+		{
+			"objects": {
+				"information2": {
+					"type": "input",
+					"top": 80,
+					"left": 40,
+					"width": 1000,
+					"height": 280,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"dataSource": "Infos[2].Description",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					],
+					"class": "description"
+				},
+				"PersonValue4": {
+					"type": "input",
+					"left": 140,
+					"top": 500,
+					"width": 300,
+					"height": 20,
+					"dataSource": "Form:C1466.VIP_people.firstname",
+					"visibility": "visible",
+					"dataSourceTypeHint": "text",
+					"events": []
+				},
+				"PersonValue6": {
+					"type": "input",
+					"left": 140,
+					"top": 430,
+					"width": 150,
+					"height": 20,
+					"dataSource": "Form:C1466.VIP_people.title",
+					"visibility": "visible",
+					"events": []
+				},
+				"PersonLabel4": {
+					"type": "text",
+					"text": "Title",
+					"top": 430,
+					"left": 10,
+					"width": 120,
+					"height": 20,
+					"textAlign": "right",
+					"visibility": "visible"
+				},
+				"PersonLabel6": {
+					"type": "text",
+					"text": "Firstname",
+					"top": 500,
+					"left": 10,
+					"width": 120,
+					"height": 20,
+					"textAlign": "right",
+					"visibility": "visible"
+				},
+				"PersonValue8": {
+					"type": "input",
+					"left": 140,
+					"top": 570,
+					"width": 300,
+					"height": 20,
+					"dataSource": "Form:C1466.VIP_people.lastname",
+					"visibility": "visible",
+					"dataSourceTypeHint": "text",
+					"events": []
+				},
+				"PersonLabel8": {
+					"type": "text",
+					"text": "Lastname",
+					"top": 570,
+					"left": 10,
+					"width": 120,
+					"height": 20,
+					"textAlign": "right",
+					"visibility": "visible"
+				},
+				"PersonValue9": {
+					"type": "input",
+					"left": 140,
+					"top": 650,
+					"width": 150,
+					"height": 20,
+					"dataSource": "Form:C1466.VIP_people.creationDate",
+					"visibility": "visible",
+					"dataSourceTypeHint": "date",
+					"events": []
+				},
+				"PersonLabel9": {
+					"type": "text",
+					"text": "Creation date",
+					"top": 650,
+					"left": 10,
+					"width": 120,
+					"height": 20,
+					"textAlign": "right",
+					"visibility": "visible"
+				},
+				"PersonValue10": {
+					"type": "input",
+					"left": 140,
+					"top": 720,
+					"width": 100,
+					"height": 20,
+					"dataSource": "Form:C1466.VIP_people.internalId",
+					"visibility": "visible",
+					"dataSourceTypeHint": "number",
+					"events": []
+				},
+				"PersonLabel10": {
+					"type": "text",
+					"text": "Internal id",
+					"top": 720,
+					"left": 10,
+					"width": 120,
+					"height": 20,
+					"textAlign": "right",
+					"visibility": "visible"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "A VIP_People entity",
+					"top": 390,
+					"left": 140,
+					"width": 250,
+					"height": 20,
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"stroke": "#6495ed",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
+				},
+				"Input2": {
+					"type": "input",
+					"left": 140,
+					"top": 460,
+					"width": 320,
+					"height": 20,
+					"dataSource": "LinesCode{8}",
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"styledText": true
+				},
+				"Input3": {
+					"type": "input",
+					"left": 140,
+					"top": 530,
+					"width": 320,
+					"height": 20,
+					"dataSource": "LinesCode{9}",
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"styledText": true
+				},
+				"Input4": {
+					"type": "input",
+					"left": 140,
+					"top": 600,
+					"width": 320,
+					"height": 20,
+					"dataSource": "LinesCode{10}",
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"styledText": true
+				},
+				"Input6": {
+					"type": "input",
+					"left": 140,
+					"top": 680,
+					"width": 320,
+					"height": 20,
+					"dataSource": "LinesCode{11}",
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"styledText": true
+				},
+				"Input7": {
+					"type": "input",
+					"left": 140,
+					"top": 750,
+					"width": 320,
+					"height": 20,
+					"dataSource": "LinesCode{12}",
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"styledText": true
+				},
+				"Input10": {
+					"type": "input",
+					"left": 470,
+					"top": 430,
+					"width": 600,
+					"height": 200,
+					"dataSource": "LinesCode{7}",
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"styledText": true
+				},
+				"Text3": {
+					"type": "text",
+					"text": "VIP_PeopleEntity class",
+					"top": 390,
+					"left": 470,
+					"width": 250,
+					"height": 20,
+					"fontWeight": "bold",
+					"stroke": "#6495ed",
+					"sizingX": "fixed",
+					"sizingY": "fixed",
+					"fontSize": 18
+				},
+				"Check Box2": {
+					"type": "checkbox",
+					"text": "Trace",
+					"top": 750,
+					"left": 1000,
+					"width": 70,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "btnTrace",
+					"fontSize": 14
+				}
+			},
+			"entryOrder": [
+				"PersonValue6",
+				"PersonValue4",
+				"PersonValue8",
+				"PersonValue9",
+				"PersonValue10",
+				"Check Box2"
 			]
 		}
 	],
@@ -327,5 +603,5 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 3266
+	"geometryStamp": 3309
 }

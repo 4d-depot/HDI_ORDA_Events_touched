@@ -150,11 +150,16 @@
 	</table>
 	<table name="VIP_People" uuid="019764D9792B7C39BA63F86231378C3E" id="9">
 		<field name="ID" uuid="019764D9792C7F5C87C3A17FF6611BC8" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="title" uuid="0197685434E170A79BB5B7BDB559A628" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="firstname" uuid="019768545D317BCE8B56DC0E33D07477" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="lastname" uuid="019768546F6271EBBA4FEB247F4E9485" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="creationDate" uuid="01976854D29071B684D560E5AC7C08A1" type="8" never_null="true" id="5"/>
+		<field name="internalId" uuid="01976854FD63747EA2550D8E00122C90" type="3" never_null="true" id="6"/>
 		<primary_key field_name="ID" field_uuid="019764D9792C7F5C87C3A17FF6611BC8"/>
 		<table_extra>
-			<editor_table_info fields_ordering="1" displayable_fields_count="6">
+			<editor_table_info displayable_fields_count="7">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="1040" top="40" width="120" height="167.33203125"/>
+				<coordinates left="469.23828125" top="160.11328125" width="166.79296875" height="205.84765625"/>
 			</editor_table_info>
 		</table_extra>
 	</table>

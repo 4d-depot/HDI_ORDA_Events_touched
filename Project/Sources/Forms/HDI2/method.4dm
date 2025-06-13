@@ -4,11 +4,13 @@ Case of
 		
 	: (Form event code:C388=On Load:K2:1)
 		
+		btnTrace:=False:C215
+		
 		InitInfo
 		
 		Form:C1466.people:=ds:C1482.People.all().first()
 		
-		Form:C1466.VIP_people:=ds:C1482.People.all().first()
+		Form:C1466.VIP_people:=ds:C1482.VIP_People.all().first()
 		
 		manageTexts
 		
