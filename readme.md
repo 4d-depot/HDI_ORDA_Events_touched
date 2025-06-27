@@ -1,8 +1,8 @@
 # HDI_Template_20
 
-Description (4D 20 Rx)
+The ORDA touched event (4D 20 R10)
 
-Find more information on the [blog post](https://blog.4d.com/).
+Find more information on the [blog post](https://blog.4d.com/orda-get-started-with-the-touched-event).
 
 ## Installing and Using a 4D Project
 
