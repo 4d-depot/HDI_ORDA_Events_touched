@@ -33,9 +33,9 @@ Case of
 		$options.blog:="blog.4d.com"
 		$options.info:="ORDA"  //ex : "4D View Pro feature"
 		
-		//$options.minimumVersion:="2010"  // 1660 means 16R6   1601 means 16.1 (do not use !)
+		$options.minimumVersion:="20A0"  // 1660 means 16R6   1601 means 16.1 (do not use !)
 		
-		$options.minimumVersion:="20"+String:C10(Formula from string:C1601("0x"+Substring:C12(Application version:C493; 3; 1)).call())
+		//$options.minimumVersion:="20"+String(Formula from string("0x"+Substring(Application version; 3; 1)).call())
 		
 		
 		// $options.license:=4D View license  // IF ANY NEEDED

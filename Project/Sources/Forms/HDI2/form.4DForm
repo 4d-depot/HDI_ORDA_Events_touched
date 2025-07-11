@@ -50,8 +50,8 @@
 					"left": 50,
 					"width": 1000,
 					"height": 550,
-					"sizingX": "grow",
-					"sizingY": "grow",
+					"sizingX": "fixed",
+					"sizingY": "fixed",
 					"dataSource": "Infos[0].Description",
 					"focusable": false,
 					"fill": "transparent",
@@ -77,7 +77,9 @@
 						"onClick"
 					],
 					"dataSource": "btnTrace",
-					"fontSize": 14
+					"fontSize": 14,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				}
 			}
 		},
@@ -89,8 +91,8 @@
 					"left": 40,
 					"width": 1000,
 					"height": 280,
-					"sizingX": "move",
-					"sizingY": "grow",
+					"sizingX": "fixed",
+					"sizingY": "fixed",
 					"dataSource": "Infos[1].Description",
 					"focusable": false,
 					"fill": "transparent",
@@ -114,7 +116,9 @@
 					"dataSource": "Form:C1466.people.firstname",
 					"visibility": "visible",
 					"dataSourceTypeHint": "text",
-					"events": []
+					"events": [],
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonValue1": {
 					"type": "input",
@@ -124,7 +128,9 @@
 					"height": 20,
 					"dataSource": "Form:C1466.people.title",
 					"visibility": "visible",
-					"events": []
+					"events": [],
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonLabel1": {
 					"type": "text",
@@ -134,7 +140,9 @@
 					"width": 120,
 					"height": 20,
 					"textAlign": "right",
-					"visibility": "visible"
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonLabel2": {
 					"type": "text",
@@ -144,7 +152,9 @@
 					"width": 120,
 					"height": 20,
 					"textAlign": "right",
-					"visibility": "visible"
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonValue3": {
 					"type": "input",
@@ -155,7 +165,9 @@
 					"dataSource": "Form:C1466.people.lastname",
 					"visibility": "visible",
 					"dataSourceTypeHint": "text",
-					"events": []
+					"events": [],
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonLabel3": {
 					"type": "text",
@@ -165,7 +177,9 @@
 					"width": 120,
 					"height": 20,
 					"textAlign": "right",
-					"visibility": "visible"
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonValue5": {
 					"type": "input",
@@ -176,7 +190,9 @@
 					"dataSource": "Form:C1466.people.street",
 					"visibility": "visible",
 					"dataSourceTypeHint": "text",
-					"events": []
+					"events": [],
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonLabel5": {
 					"type": "text",
@@ -186,7 +202,9 @@
 					"width": 120,
 					"height": 20,
 					"textAlign": "right",
-					"visibility": "visible"
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonValue7": {
 					"type": "input",
@@ -197,7 +215,9 @@
 					"dataSource": "Form:C1466.people.city",
 					"visibility": "visible",
 					"dataSourceTypeHint": "text",
-					"events": []
+					"events": [],
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonLabel7": {
 					"type": "text",
@@ -207,7 +227,9 @@
 					"width": 120,
 					"height": 20,
 					"textAlign": "right",
-					"visibility": "visible"
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Text8": {
 					"type": "text",
@@ -232,7 +254,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Input8": {
 					"type": "input",
@@ -244,7 +268,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Input9": {
 					"type": "input",
@@ -256,7 +282,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Input11": {
 					"type": "input",
@@ -268,7 +296,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Input15": {
 					"type": "input",
@@ -280,7 +310,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Input1": {
 					"type": "input",
@@ -292,7 +324,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Text1": {
 					"type": "text",
@@ -315,7 +349,9 @@
 					"width": 150,
 					"height": 20,
 					"fontWeight": "bold",
-					"fontStyle": "italic"
+					"fontStyle": "italic",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Check Box1": {
 					"type": "checkbox",
@@ -328,7 +364,9 @@
 						"onClick"
 					],
 					"dataSource": "btnTrace",
-					"fontSize": 14
+					"fontSize": 14,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				}
 			},
 			"entryOrder": [
@@ -350,8 +388,8 @@
 					"left": 40,
 					"width": 1000,
 					"height": 280,
-					"sizingX": "move",
-					"sizingY": "grow",
+					"sizingX": "fixed",
+					"sizingY": "fixed",
 					"dataSource": "Infos[2].Description",
 					"focusable": false,
 					"fill": "transparent",
@@ -375,7 +413,9 @@
 					"dataSource": "Form:C1466.VIP_people.firstname",
 					"visibility": "visible",
 					"dataSourceTypeHint": "text",
-					"events": []
+					"events": [],
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonValue6": {
 					"type": "input",
@@ -385,7 +425,9 @@
 					"height": 20,
 					"dataSource": "Form:C1466.VIP_people.title",
 					"visibility": "visible",
-					"events": []
+					"events": [],
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonLabel4": {
 					"type": "text",
@@ -395,7 +437,9 @@
 					"width": 120,
 					"height": 20,
 					"textAlign": "right",
-					"visibility": "visible"
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonLabel6": {
 					"type": "text",
@@ -405,7 +449,9 @@
 					"width": 120,
 					"height": 20,
 					"textAlign": "right",
-					"visibility": "visible"
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonValue8": {
 					"type": "input",
@@ -416,7 +462,9 @@
 					"dataSource": "Form:C1466.VIP_people.lastname",
 					"visibility": "visible",
 					"dataSourceTypeHint": "text",
-					"events": []
+					"events": [],
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonLabel8": {
 					"type": "text",
@@ -426,7 +474,9 @@
 					"width": 120,
 					"height": 20,
 					"textAlign": "right",
-					"visibility": "visible"
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonValue9": {
 					"type": "input",
@@ -437,7 +487,9 @@
 					"dataSource": "Form:C1466.VIP_people.creationDate",
 					"visibility": "visible",
 					"dataSourceTypeHint": "date",
-					"events": []
+					"events": [],
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonLabel9": {
 					"type": "text",
@@ -447,7 +499,9 @@
 					"width": 120,
 					"height": 20,
 					"textAlign": "right",
-					"visibility": "visible"
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonValue10": {
 					"type": "input",
@@ -458,7 +512,9 @@
 					"dataSource": "Form:C1466.VIP_people.internalId",
 					"visibility": "visible",
 					"dataSourceTypeHint": "number",
-					"events": []
+					"events": [],
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"PersonLabel10": {
 					"type": "text",
@@ -468,7 +524,9 @@
 					"width": 120,
 					"height": 20,
 					"textAlign": "right",
-					"visibility": "visible"
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Text2": {
 					"type": "text",
@@ -493,7 +551,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Input3": {
 					"type": "input",
@@ -505,7 +565,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Input4": {
 					"type": "input",
@@ -517,7 +579,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Input6": {
 					"type": "input",
@@ -529,7 +593,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Input7": {
 					"type": "input",
@@ -541,7 +607,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Input10": {
 					"type": "input",
@@ -553,7 +621,9 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"styledText": true
+					"styledText": true,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Text3": {
 					"type": "text",
@@ -579,7 +649,9 @@
 						"onClick"
 					],
 					"dataSource": "btnTrace",
-					"fontSize": 14
+					"fontSize": 14,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				}
 			},
 			"entryOrder": [
@@ -603,5 +675,5 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 3309
+	"geometryStamp": 3395
 }

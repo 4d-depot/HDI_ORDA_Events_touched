@@ -1,4 +1,4 @@
-# HDI_Template_20
+# HDI ORDA touched event
 
 The ORDA touched event (4D 20 R10)
 
